@@ -1,6 +1,7 @@
 import React from 'react'
 import {ProductConsumer} from '../../context'
 
+
 export default function CartTotals() {
     return (
         <div className='container'>
@@ -14,6 +15,7 @@ export default function CartTotals() {
 <h3>Subtotal : ${cartSubTotal}</h3>
 <h3>tax: ${cartTax}</h3>
 <h3>total: ${cartTotal}</h3>
+
                     </div>
                 )
             }}
